@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我爱运锋</title>
+    <style>
+        body {
+            color: red;
+        }
+        p.t1 {
+            color: black;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    20180310
+    <p class="p1">this is a paragraph.</p>
+    <p class="t1">this is another paragraph.</p>
+    <script>
+        document.write("This is a heading");
+        var elementParagraph = document.getElementsByTagName('p')[0]
+        elementParagraph.onclick = function () {
+            alert('你点击了这个段落')
+        }
+        // setInterval(function () {
+        //     var elementParagraph = document.getElementsByTagName('p')[0]
+        //     elementParagraph.innerText = new Date()
+        // }, 1000)
+    </script>
+</body>
+</html>
